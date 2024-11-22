@@ -19,7 +19,7 @@ public class Servo extends LinearOpMode {
         while (opModeIsActive() && runtime.milliseconds() < 1000) { // Here has to wait 0.5 second to let upper roller to drop down.
         }
         telemetry.addData("moved", extendIntake);
-        extendIntake.setPower(0.9);
+        extendIntake.setPower(100);
         while (opModeIsActive() && runtime.milliseconds() < 3000) { // Here has to wait 0.5 second to let upper roller to drop down.
         }
 
